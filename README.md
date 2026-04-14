@@ -24,9 +24,8 @@ A focused library of stateless, audit-friendly auth primitives. No database, no 
 
 1. **Zero `unsafe`** — `#![forbid(unsafe_code)]`.
 2. **One crate** — no workspace, no sub-crates.
-3. **Cross-language** — C FFI + UniFFI bindings (Python, Node, Swift, Kotlin) planned.
-4. **`no_std`-friendly** — v0 uses `std`; `no_std + alloc` planned for v0.2.
-5. **Deterministic where possible** — timestamps are caller-provided, not read from the clock.
+3. **`no_std`-friendly** — v0 uses `std`; `no_std + alloc` planned for v0.2.
+4. **Deterministic where possible** — timestamps are caller-provided, not read from the clock.
 
 ## Usage
 
